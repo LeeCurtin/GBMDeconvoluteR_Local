@@ -23,7 +23,7 @@ library(tidyverse)
 library(markdown)
 library(DT)
 library(MCPcounter)
-#library(tinyscalop)
+library(tinyscalop)
 library(openxlsx)
 
 # GLOABAL OPTIONS ----
