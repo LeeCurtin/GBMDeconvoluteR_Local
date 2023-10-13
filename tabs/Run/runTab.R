@@ -24,7 +24,7 @@ tabPanel(
           tags$h4("Select Data"),
           
           br(), br(),
-
+          options(shiny.maxRequestSize = 100 * 1024^2)
           fileInput(inputId = "upload_file",
                     multiple = FALSE,
                     label = tags$div(
